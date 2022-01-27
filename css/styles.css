@@ -223,7 +223,7 @@ body {
   margin-bottom: 30px;
 }
 
-.partners-pic {
+/* .partners-pic {
   cursor: pointer;
   width: 170px;
   height: 92px;
@@ -248,6 +248,28 @@ body {
 
 .partners-links {
   fill: #afb1b8;
+} */
+
+.partners-links:focus,
+.partners-links:hover {
+  fill: var(--var-logo-web-color);
+  border-color: #188ce8;
+}
+
+.partners-links {
+  width: 170px;
+  height: 92px;
+  display: block;
+  padding: 16px 32px;
+  background-color: var(--var-white-color);
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  fill: #afb1b8;
+}
+
+.item-border:not(:last-child) {
+  margin-right: 30px;
 }
 
 .icon-advant {
@@ -257,7 +279,7 @@ body {
 
 .pic-advant {
   width: 106px;
-  height: 60;
+  height: 60px;
 }
 
 .header-advantages-title {
