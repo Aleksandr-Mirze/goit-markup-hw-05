@@ -223,33 +223,6 @@ body {
   margin-bottom: 30px;
 }
 
-/* .partners-pic {
-  cursor: pointer;
-  width: 170px;
-  height: 92px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--var-white-color);
-  border: 1px solid #afb1b8;
-  box-sizing: border-box;
-  border-radius: 4px;
-}
-
-.partners-pic:focus,
-.partners-pic:hover {
-  border: 1px solid var(--var-logo-web-color);
-}
-
-.partners-links:focus .pic-advant,
-.partners-links:hover .pic-advant {
-  fill: var(--var-logo-web-color);
-}
-
-.partners-links {
-  fill: #afb1b8;
-} */
-
 .partners-links:focus,
 .partners-links:hover {
   fill: var(--var-logo-web-color);
