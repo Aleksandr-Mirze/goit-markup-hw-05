@@ -412,7 +412,7 @@ body {
   background-color: rgba(33, 150, 243, 0.9);
   padding: 63px 24px;
   overflow: auto;
-  transform: translateY(100%);
+  transform: translateY(101%);
   transition: var(--animation);
   text-align: start;
 }
@@ -602,9 +602,9 @@ body {
   align-items: baseline;
 }
 
-.footer-address {
+.footer-left-box {
+  margin-right: 70px;
 }
-
 .footer-link {
   /* padding-top: 20px; */
 }
